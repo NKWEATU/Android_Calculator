@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+   //code for addition
     public void Add(View v) {
         EditText et1 = (EditText)findViewById(R.id.editTextNumber);
         EditText et2 = (EditText)findViewById(R.id.editTextNumber2);
@@ -35,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
         et3.setText("Total Value is: " + result);
     }
+
+       //code for subtraction
 
     public void Subtract(View v) {
         EditText et1 = (EditText)findViewById(R.id.editTextNumber);
@@ -48,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         et3.setText("Subtracted Value is: " + result);
     }
 
+       //code for multiplication
     public void Multiply(View v) {
         EditText et1 = (EditText)findViewById(R.id.editTextNumber);
         EditText et2 = (EditText)findViewById(R.id.editTextNumber2);
@@ -59,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
         et3.setText("Multiplied Value is: " + result);
     }
+
+       //code for division
 
     public void Divide(View v) {
         EditText et1 = (EditText)findViewById(R.id.editTextNumber);
